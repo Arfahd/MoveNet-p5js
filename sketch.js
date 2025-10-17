@@ -21,7 +21,7 @@ async function setup() {
   };
   detector = await poseDetection.createDetector(model, detectorConfig);
 
-  console.log("MoveNet model loaded ✅");
+  console.log("MoveNet model loaded");
 }
 
 async function draw() {

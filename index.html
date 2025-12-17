@@ -503,12 +503,44 @@
 
         <!-- Controls Section -->
         <div class="section">
+          <div class="section-title">Input Source</div>
+          <select class="exercise-select" id="inputMode">
+            <option value="webcam">📷 Live Webcam</option>
+            <option value="video" selected>🎬 Video File</option>
+          </select>
+        </div>
+
+        <!-- Video Source Section (only visible in video mode) -->
+        <div class="section" id="videoSourceSection" style="display: block;">
+          <div class="section-title">Video Source</div>
+          
+          <!-- File Upload Input -->
+          <div class="file-upload-wrapper">
+            <input type="file" 
+                   id="videoFileInput" 
+                   accept="video/mp4,video/webm,video/ogg"
+                   style="display: none;">
+            <button class="btn btn-secondary" id="chooseVideoBtn" style="width: 100%;">
+              <span>📁</span>
+              <span>Choose Video File</span>
+            </button>
+          </div>
+          
+          <!-- Video Info Display (shown after file selected) -->
+          <div id="videoInfo" style="display: none; margin-top: 10px; padding: 10px; background: rgba(255,255,255,0.05); border-radius: 6px;">
+            <div style="font-size: 12px; color: #9CA3AF;">
+              <strong>Selected:</strong> <span id="videoFileName">None</span><br>
+              <strong>Duration:</strong> <span id="videoDuration">--</span> | 
+              <strong>Size:</strong> <span id="videoFileSize">--</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="section">
           <div class="section-title">Exercise Type</div>
           <select class="exercise-select" id="exerciseType">
             <option value="pushup">Push-ups</option>
             <option value="pullup">Pull-ups</option>
-            <option value="squat">Squats</option>
-            <option value="bicep">Bicep Curls</option>
           </select>
           
           <div class="btn-group">
@@ -534,12 +566,12 @@
         <div class="section">
           <div class="section-title">Instructions</div>
           <div class="instructions">
-            <ul class="instructions-list">
-              <li>Allow camera access when prompted</li>
-              <li>Position yourself in frame</li>
-              <li>Select your exercise type</li>
+            <ul class="instructions-list" id="instructionsList">
+              <li>Click "Choose Video File" to upload</li>
+              <li>Select MP4, WebM, or OGG video</li>
+              <li>Choose matching exercise type</li>
               <li>Press Start to begin tracking</li>
-              <li>Follow the form feedback</li>
+              <li>Watch the form feedback</li>
             </ul>
           </div>
         </div>

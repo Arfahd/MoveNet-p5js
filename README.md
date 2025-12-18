@@ -35,8 +35,12 @@ http://localhost:8000
 
 Note: This branch uses pre-recorded video files for testing and development without camera access. For live webcam tracking, use the main branch.
 
+## License
+
+This project is open source.
+
 ## Acknowledgments
 
-- [TensorFlow.js](https://www.tensorflow.org/js) for machine learning in the browser
-- [MoveNet](https://www.tensorflow.org/hub/tutorials/movenet) for pose estimation model
-- [p5.js](https://p5js.org/) for creative coding framework
+- [TensorFlow.js](https://www.tensorflow.org/js) - Machine learning in the browser
+- [MoveNet](https://www.tensorflow.org/hub/tutorials/movenet) - Pose estimation model
+- [p5.js](https://p5js.org/) - Creative coding framework

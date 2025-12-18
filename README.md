@@ -28,15 +28,6 @@ Open your browser and navigate to:
 http://localhost:8000
 ```
 
-1. Allow camera access when prompted
-2. Select your exercise type from the dropdown
-3. Click "Start" to begin tracking
-4. Perform your exercises while the app counts your reps
-
-## License
-
-This project is open source and available under the MIT License.
-
 ## Acknowledgments
 
 - [TensorFlow.js](https://www.tensorflow.org/js) for machine learning in the browser

@@ -33,17 +33,7 @@ Open your browser and navigate to:
 http://localhost:8000
 ```
 
-1. The video will auto-play on load
-2. Use the "Video Source" dropdown to switch between push-up and pull-up videos
-3. Select your exercise type from the dropdown
-4. Click "Start" to begin tracking
-5. Watch the app count reps from the video
-
 Note: This branch uses pre-recorded video files for testing and development without camera access. For live webcam tracking, use the main branch.
-
-## License
-
-This project is open source and available under the MIT License.
 
 ## Acknowledgments
 

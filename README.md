@@ -28,8 +28,12 @@ Open your browser and navigate to:
 http://localhost:8000
 ```
 
+## License
+
+This project is open source.
+
 ## Acknowledgments
 
-- [TensorFlow.js](https://www.tensorflow.org/js) for machine learning in the browser
-- [MoveNet](https://www.tensorflow.org/hub/tutorials/movenet) for pose estimation model
-- [p5.js](https://p5js.org/) for creative coding framework
+- [TensorFlow.js](https://www.tensorflow.org/js) - Machine learning in the browser
+- [MoveNet](https://www.tensorflow.org/hub/tutorials/movenet) - Pose estimation model
+- [p5.js](https://p5js.org/) - Creative coding framework
